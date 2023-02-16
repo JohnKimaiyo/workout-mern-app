@@ -4,17 +4,16 @@ const { createWorkout } = require("../controllers/workoutController");
 const router = express.Router();
 
 // get all workouts
-router.get('/',getWorkouts)
+router.get("/", getWorkouts);
 //GET single workout
-router.get('/:id',getWorkouts)msg: "GET single workout" });
-});
+router.get("/:id", getWorkouts);
 
 //  POST a new workout
 router.post("/", createWorkout);
 
 // DELETE a workout
-router.delete
+router.delete;
 
 // update a workout
-router.put
+router.put;
 module.exports = router;
